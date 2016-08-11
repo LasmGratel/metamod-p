@@ -1,0 +1,7 @@
+cmake_minimum_required (VERSION 2.6)
+project (metamod)
+set_property(GLOBAL PROPERTY USE_FOLDERS ON)
+add_subdirectory (metamod)
+add_subdirectory (stub_plugin)
+add_subdirectory (trace_plugin)
+add_subdirectory (wdmisc_plugin)
